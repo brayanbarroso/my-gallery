@@ -1,0 +1,8 @@
+{
+  "workbench.colorTheme": "Dracula Soft",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.settings.editor": "json",
+  "editor.fontSize": 14,
+  "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  "editor.guides.bracketPairs": "active"
+}
