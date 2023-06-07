@@ -9,7 +9,7 @@ body {
 }
 
 .header {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -74,4 +74,49 @@ body {
   font-size: 12px;
   font-weight: 600;
   line-height: 15px;
+}
+
+.gallery {
+  margin-top: 40px;
+  padding: 0 12px 0 12px;
+}
+
+.gallery-container {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 109px 109px 109px;
+  grid-template-rows: 109px 109px 109px;
+  grid-template-areas:
+    "image-1 image-2 image-2"
+    "image-3 image-3 image-4"
+    "image-5 image-6 image-4";
+}
+
+.gallery-container img {
+  border-radius: 12px;
+  width: 100%;
+}
+
+.gallery-img-1 {
+  grid-area: image-1;
+}
+
+.gallery-img-2 {
+  grid-area: image-2;
+}
+
+.gallery-img-3 {
+  grid-area: image-3;
+}
+
+.gallery-img-4 {
+  grid-area: image-4;
+}
+
+.gallery-img-5 {
+  grid-area: image-5;
+}
+
+.gallery-img-6 {
+  grid-area: image-6;
 }
